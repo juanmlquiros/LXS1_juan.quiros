@@ -1,0 +1,402 @@
+    1  ls
+    2  ls -l
+    3  cls
+    4  clear
+    5  dir
+    6  cd Música/
+    7  cd
+    8  echo "hellocd"
+    9  echo 'hello!!'
+   10  d
+   11  exec ls
+   12  echo $local_var
+   13  exit
+   14  terminal
+   15  exit
+   16  sudo apt install terminator
+   17  top
+   18  uname
+   19  uname -s
+   20  uname -p
+   21  uname -i
+   22  uname -isp
+   23  uname -a
+   24  uname -a | lt
+   25  uname -a | ls
+   26  uname -a 
+   27  uname -m
+   28  pwd
+   29  pwd -L
+   30  pwd -P
+   31  cd dev
+   32  cd /dev
+   33  ls -l
+   34  pwd
+   35  cd
+   36  ls -l
+   37  cd /dev
+   38  ls -l
+   39  cd
+   40  VAR=1
+   41  local_var=1
+   42  echo $local_var
+   43  konsole
+   44  console
+   45  terminal
+   46  loca_var='mi-variable-local'
+   47  echo $local_var
+   48  local_var='mi-variable-local'
+   49  echo $local_var
+   50  export $local_var
+   51  export local_var
+   52  exec terminal
+   53  terminal
+   54  exit
+   55  echo $local_var
+   56  $var=234-a
+   57  var=234-a
+   58  echo $var
+   59  echo ${var}
+   60  exit
+   61  echo $var
+   62  exit
+   63  var=qw1
+   64  echo $var
+   65  unset $var
+   66  echo $var
+   67  echo ${PATH}
+   68  BASH
+   69  bash
+   70  cd /etc/
+   71  cat sudoers
+   72  cat inputrc 
+   73  cd
+   74  history
+   75  history -w
+   76  cat .bashrc
+   77  exit
+   78  cat .bashrc
+   79  nano .bashrc
+   80  $XTERM
+   81  XTERM
+   82  ls -la
+   83  ls -la | less
+   84  ls -la
+   85  cat .bash_logout 
+   86  cat .config
+   87  cd .config/
+   88  ls
+   89  cd VirtualBox/
+   90  dir
+   91  ls
+   92  cat VirtualBox.xml
+   93  cd
+   94  cat .bashrc
+   95  ls
+   96  cat .bashrc
+   97  cls
+   98  dir
+   99  clear
+  100  man ls
+  101  ls --color=auto
+  102  man ls
+  103  ls -l
+  104  ls -x
+  105  man less
+  106  man grep
+  107  history
+  108  history | less
+  109  history > myFile.txt
+  110  myFile.txt
+  111  cat myFile.txt
+  112  cat myFile.txt | less
+  113  grep -v
+  114  grep -V
+  115  man cal
+  116  cal
+  117  man cal
+  118  cal -Jo
+  119  cal -J
+  120  cal -o
+  121  cal
+  122  man cal
+  123  man fdisk
+  124  man passwd
+  125  man 5 passwd
+  126  man -f passwd
+  127  man -k passwd
+  128  man -f passwd
+  129  man 1ssl passwd
+  130  whatis passwd
+  131  info passwd
+  132  clear
+  133  man -f ls
+  134  man ls
+  135  info ls
+  136  ls -help
+  137  ls --help
+  138  heap
+  139  head
+  140  head --help
+  141  cd /user
+  142  ls
+  143  apropos head
+  144  ifconfig
+  145  man info
+  146  man man
+  147  man -t man
+  148  exit
+  149  vimtutor
+  150  apt install vom-nox
+  151  sudo apt install vom-nox
+  152  clear
+  153  vimtutor
+  154  sudo apt install vom-nox
+  155  su academia
+  156  vimtutor
+  157  vim
+  158  vim mi_primer_archivo
+  159  vimtutor
+  160  vim
+  161  vimtutor
+  162  vim mi_primer_archivo.txt
+  163  ls
+  164  pwd
+  165  vim mi_primer_archivo.txt
+  166  clear
+  167  umask
+  168  ls ~ > /tmp/home.txt
+  169  cat /tmp/test.txt
+  170  cd tmp
+  171  cd /tmp
+  172  ls
+  173  cat /tmp/home.txt
+  174  ls
+  175  cat home.txt
+  176  cd /documents
+  177  cd /documentos
+  178  cd documentos
+  179  ls
+  180  cd ..
+  181  ls
+  182  cd home
+  183  ls
+  184  cd estudiantes
+  185  ls
+  186  cd Documentos
+  187  ls 
+  188  ls
+  189  cd tmp
+  190  cd ..
+  191  cd tmp
+  192  cd /tmp
+  193  ls
+  194  ls ~ > /tmp/test.txt
+  195  ls
+  196  cat test.txt
+  197  clear
+  198  date | tee timer.txt; sleep 5; | tee -a timer.txt
+  199  date | tee timer.txt; sleep 5; date | tee -a timer.txt
+  200  ls
+  201  cat timer.txt
+  202  date | tee timer.txt; sleep 10; date | tee -a timer.txt
+  203  cat timer.txt
+  204  date | tee timer.txt; sleep 10; date | tee -a timer.txt | date | tee timer.txt; sleep 10; date | tee -a timer.txt
+  205  ps
+  206  clear
+  207  ps
+  208  nice -n -20 cat /dev/zero > /dev/null & [1] 121
+  209  echo VAR2
+  210  echo VAR1
+  211  echo $VAR2
+  212  echo $VAR1
+  213  exit
+  214  VAR1=caso
+  215  echo $var1
+  216  echo $VAR1
+  217  VAR1=otro
+  218  echo $VAR1
+  219  echo Este es $VAR1 caso
+  220  ip -4 addr
+  221  VAR2=otro
+  222  VAR3=caso
+  223  echo $VAR1 este es $VAR2 $VAR3
+  224  export VAR1
+  225  bash
+  226  exit
+  227  bash
+  228  set |less
+  229  env | less
+  230  VAR1=5
+  231  VAR2=otro
+  232  VAR3=caso
+  233  export VAR1
+  234  env | less
+  235  exit
+  236  mkdir $home/prueba1
+  237  mkdir $HOME/prueba1
+  238  ls
+  239  cd etc/apt
+  240  cd /etc/apt
+  241  echo $home
+  242  echo $HOME
+  243  ls
+  244  cd
+  245  nano prog1.sh
+  246  mv prog1.sh /prueba1
+  247  mv prog1.sh /tmp/
+  248  cd /temp
+  249  cd /tmp
+  250  ls
+  251  chmod 750 prog1.sh 
+  252  ls
+  253  ls -l
+  254  ./prog1.sh 
+  255  ls
+  256  nano prog1.sh 
+  257  ./prog1.sh 
+  258  echo $path
+  259  echo $PATH
+  260  cd
+  261  ls
+  262  mkdir bin
+  263  ls
+  264  cp /tmp/prog1.sh bin/
+  265  ls bin
+  266  prog1.sh 
+  267  mv bin/prog1.sh bin/prog1
+  268  ls bin
+  269  nano .bashrc
+  270  ls
+  271  ls -a
+  272  clear
+  273  cd temp
+  274  cd /temp
+  275  pdw
+  276  pwd
+  277  cd
+  278  cd..
+  279  /
+  280  cd /
+  281  cd temp
+  282  cd /temp/
+  283  ls
+  284  cd /tmp/
+  285  clear
+  286  dd if=/dev/zero of=/tmp/data.out bs=1 count=12
+  287  ls -l
+  288  split -b 2 data.out
+  289  ls
+  290  ls -l
+  291  cat xa* >data2.out
+  292  ls -l
+  293  cat data2.out 
+  294  split -n 4 data.out salidas.
+  295  ls salidas*
+  296  ls -l
+  297  cp .bash_history Documentos/History-clase1.txt
+  298  man ln
+  299  apropos make links
+  300  su - academia
+  301  P6p3.aas
+  302  su - academia
+  303  su - academia 
+  304  id
+  305  man fdisk
+  306  su academia
+  307  pwd
+  308  ls
+  309  find . -name 'DES*'
+  310  find . -name 'Des*'
+  311  find . -name Des*
+  312  find . -name 'Des*'
+  313  find . -name Des*
+  314  which grep
+  315  ls
+  316  mkdir test
+  317  vim file1
+  318  vim file2
+  319  su - academia
+  320  git config -- global user.name "juanmlquiros"
+  321  git config --global user.name "juanmlquiros"
+  322  git config --global user.mail "juanmlquiros@gmail.com"
+  323  cat ~/.gitconfig
+  324  cd test
+  325  rm file*
+  326  ls
+  327  mkdir docs
+  328  mkdir misc src tools
+  329  touch readme.md
+  330  touch README.md
+  331  vim gitignore
+  332  tre
+  333  tree
+  334  touch {docs,src,misc,tools}/.gitignore
+  335  tree -a
+  336  rm readme.md
+  337  tree -a
+  338  echo '*.swp' >> .gitignore
+  339  cat .gitignore
+  340  vim gitignore
+  341  cat .gitignore
+  342  tree .git
+  343  git add --all
+  344  tree
+  345  touch {docs,src,misc,tools}/.gitignore
+  346  tree
+  347  touch {docs,src,misc,tools}/.gitignore
+  348  tree
+  349  history
+  350  git config --global user.email "juanmlquiros@gmail.com"
+  351  touch {docs,src,misc,tools}/.gitignore
+  352  tree
+  353  tree -a
+  354  mv gitignore .gitignore 
+  355  git status
+  356  gitr init
+  357  git init
+  358  git status
+  359  git add --all
+  360  git status
+  361  git commit -m "inicializacion del repo de linux"
+  362  git log
+  363  ifconfig > misc/interfaces
+  364  dmesg > misc/kernel
+  365  df -lh > docs/espacios
+  366  tree
+  367  git status
+  368  git addmisc/interfaces
+  369  git add misc/interfaces
+  370  git status
+  371  git add misc/espacios
+  372  git add docs/espacios
+  373  git commit -m "agrego archivos de espacios e interfaces"
+  374  git log
+  375  cp /etc/apt/sources.list misc
+  376  git status
+  377  vim docs/espacios
+  378  git status
+  379  git diff docs/espacios
+  380  git add doscs/espacios
+  381  git add docs/espacios
+  382  gitr add misc/kernel
+  383  git add misc/kernel
+  384  git status
+  385  git commit -m "modificacion del gheader de espacios y agrego archivo del kernel"
+  386  git log
+  387  git remote add origin https://github.com/juanmlquiros/LXS1_juan.quiros.git
+  388  git remote -v
+  389  git push -u origin master
+  390  cd /tmp/
+  391  git clone https://github.com/juanmlquiros/LXS1_juan.quiros.git
+  392  ls
+  393  cd LXS1_juan.quiros/
+  394  ls
+  395  git status
+  396  cd test
+  397  ls
+  398  history < history_clase2.txt
+  399  history > history_clase2.txt
+  400  git status
+  401  git add misc/history_clase2.txt
+  402  history > history_clase2.txt
